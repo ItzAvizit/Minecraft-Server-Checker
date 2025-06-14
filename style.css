@@ -1,0 +1,79 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #1a1a1a;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #2d2d2d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+.server-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: white;
+}
+
+button {
+    padding: 10px 15px;
+    background: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+.server-info {
+    background: #333;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.favorites {
+    background: #333;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#favoritesList {
+    list-style: none;
+    padding: 0;
+}
+
+#favoritesList li {
+    padding: 8px;
+    background: #444;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#favoritesList li:hover {
+    background: #555;
+}
